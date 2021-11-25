@@ -47,7 +47,6 @@ A great example is the use of TLS, combined into a single statement:
 
 Obviously, one could rewrite the above into two statements, or reword it in a number of ways to more or less achieve the same outcome.
 
-## Your Standard Standard
 The first standard in your repertiore should specify how you manage and use principles, policies, standards, guidelines, and procedures.
 Importantly, it MUST be clear on key terms to prevent any ambiguity. A statement at the beginning of each document can alay this:
 
