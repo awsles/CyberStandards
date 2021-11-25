@@ -58,7 +58,7 @@ Many IT and cybersecurity audits measure against YOUR OWN company standards and 
 That said, many of the best practices and public standards prescribe cetain requirements, which, if your are being measured against that best practice,
 you should ensure thag your company's standards adequately cover those requirements. 
 
-### Use 'SHOULD' sparingly
+### Use '*SHOULD*' but sparingly
 The secret here is that you can build in a little bit of *reasonable* wiggle room into your standards.
 Sparingly, you can use 'SHOULD' to capture intended objectives without making them a requirement.
 Being non-compiant with a 'SHOULD' statement won't be flagged as an audit failure -- unless you are also being measured
