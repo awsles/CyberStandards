@@ -1,10 +1,9 @@
 # CyberStandards
 Cyber Security Policies, Standards, Guidelines, Procedures and more - Useful resources for IT and CyberSecurity professionals,
-provided under the (Creative Commons Zero license)[https://en.wikipedia.org/wiki/Creative_Commons_license#Zero_/_public_domain]. 
+provided under the [Creative Commons Zero license](https://en.wikipedia.org/wiki/Creative_Commons_license#Zero_/_public_domain). 
 
 Many of the requirements and recommendations herein are derived from security patterns and best practices.
 In some cases, citations may be included to reference applicable control(s) which can help achieve the desired requirement or recommendation.
-
 
 # Motivation
 As an Information Security professional, I have come across numerous Cyber Security policies, standards, guidelines, and procedures...
@@ -84,7 +83,6 @@ So your password requirement might become several statements:
 See how the above has skirted the issue of imposing a specific password size across all systems -- and therefore risking a potential non-compliance from a rigourous auditor?
 We can specify 8 characters as the MUST because we know all our systems support that... but we WANT to require at least 10 on those systems which support it.
 Going a step further, you can require users to use 10 or more characters as part of the Employee Use of Company Systems.
-
 
 ### Incorporate Thresholds
 Another useful tactic when writing IT and CyberSecurity standards is to incorporate a threshold, at which
