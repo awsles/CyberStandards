@@ -36,6 +36,7 @@ SEE: *[Principles, Policies, Standards, Guidelines, and Procedures](https://gith
 
 # MUST, SHOULD, SHALL, MAY
 Many standards fail to CLEARLY differentiate what is required vs. what is recommended.
+Fortunately, IETF [RFC 2119](https://www.ietf.org/rfc/rfc2119.txt) helps us succinctly resolve this ambiguity.
 
 Some argue that a standards document should only specify requirements and that guidelines should be used for recommendations.
 Personally, I like to keep the related requirements and recommendations together within the same document.
@@ -43,7 +44,7 @@ They are more likely to be read this way, and it's one less document to separate
 Furthermore, I prefer to capture key recommendations which themselves may soon become requirements, but haven't yet.
 A great example is the use of TLS, combined into a single statement:
 
-* HTTPS communications MUST use TLS 1.1 or later. However, TLS 1.2 or later SHOULD be used.
+* *HTTPS communications MUST use TLS 1.1 or later. However, TLS 1.2 or later SHOULD be used.*
 
 Obviously, one could rewrite the above into two statements, or reword it in a number of ways to more or less achieve the same outcome.
 
