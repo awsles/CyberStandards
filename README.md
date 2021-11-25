@@ -1,6 +1,6 @@
 # CyberStandards
 Cyber Security Policies, Standards, Guidelines, Procedures and more - Useful resources for IT and CyberSecurity professionals,
-provided under the Create Commons Zero license. https://en.wikipedia.org/wiki/Creative_Commons_license#Zero_/_public_domain
+provided under the (Creative Commons Zero license)[https://en.wikipedia.org/wiki/Creative_Commons_license#Zero_/_public_domain]. 
 
 Many of the requirements and recommendations herein are derived from security patterns and best practices.
 In some cases, citations may be included to reference applicable control(s) which can help achieve the desired requirement or recommendation.
