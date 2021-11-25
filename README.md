@@ -25,14 +25,15 @@ That always makes me laugh because how do you expect folks to adhere to standard
 Wouldn't it be great if there were some policy and standards statements open for use?  No one really likes to write these.
 It's handy to have a nice starting point.  So this resource is provided for all to use. The examples provided herein are NOT
 meant to be exhaustive. But what is provided here can often be used as-is, and fine-tuned for your own environmental requirements.
-
-It is expected that any statements here would complement those policy and requirements statements which may be very specific
+The requirement and recommendation statements provided herein would complement requirements which may be very specific
 (and potentially confidential) to your organization.
 
 # Principles, Policies, Standards, Guidelines, and Procedures
 This is the first aspect that usually goes wrong, especially as policies and standards are often and incorrectly used interchangably.
 I have also seen cases where lists of security controls such as those found in NIST SP800-53 are used as standards,
 even though security controls are the means by which standard requirements are *achieved* -- the controls themselves are NOT standards.
+
+See *Principles, Policies, Standards, Guidelines, and Procedures*  LINK IS TBD
 
 # MUST, SHOULD, SHALL, MAY
 Many standards fail to CLEARLY differentiate what is required vs. what is recommended.
@@ -47,14 +48,13 @@ A great example is the use of TLS, combined into a single statement:
 
 Obviously, one could rewrite the above into two statements, or reword it in a number of ways to more or less achieve the same outcome.
 
-## The FIRST Standard
+## Your Standard Standard
 The first standard in your repertiore should specify how you manage and use principles, policies, standards, guidelines, and procedures.
-
 Importantly, it MUST be clear on key terms to prevent any ambiguity. A statement at the beginning of each document can alay this:
 
 **The following terms have been adapted from IETF RFC 2119 and are used throughout this document to indicate whether a statement is mandatory, recommended or optional: "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY", and "OPTIONAL".  These terms are generally capitalized for emphasis within this document.**
 
-## Audits
+# Audits
 We all cringe a bit around audit time...  Are we really following our own prescribed standards?  Can we evidence that for the auditor?
 Many IT and cybersecurity audits measure against YOUR OWN company standards and the specific requirements therein.
 That said, many of the best practices and public standards prescribe cetain requirements, which, if your are being measured against that best practice,
@@ -103,6 +103,4 @@ There is no guarantee though that an independent auditor will honor such stateme
 Content and editorial contributions are welcomed! Please don't share anything confidential.
 Edit out any specific resource references (like company, server, or supplier names) and thresholds.
 You MAY includes references to specific public cloud providers where a statement pertains to a specific cloud service.
-
-
 
