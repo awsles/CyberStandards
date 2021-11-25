@@ -32,7 +32,7 @@ This is the first aspect that usually goes wrong, especially as policies and sta
 I have also seen cases where lists of security controls such as those found in NIST SP800-53 are used as standards,
 even though security controls are the means by which standard requirements are *achieved* -- the controls themselves are NOT standards.
 
-See *Principles, Policies, Standards, Guidelines, and Procedures*  LINK IS TBD
+SEE: *[Principles, Policies, Standards, Guidelines, and Procedures](https://github.com/lesterw1/CyberStandards/blob/main/Principles%2C%20Policies%2C%20Standards%2C%20Guidelines%2C%20and%20Procedures.md)*
 
 # MUST, SHOULD, SHALL, MAY
 Many standards fail to CLEARLY differentiate what is required vs. what is recommended.
