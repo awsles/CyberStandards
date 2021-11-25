@@ -43,11 +43,16 @@ They are more likely to be read this way, and it's one less document to separate
 Furthermore, I prefer to capture key recommendations which themselves may soon become requirements, but haven't yet.
 A great example is the use of TLS, combined into a single statement:
 
-* HTTPS communications MUST use TLS 1.1 or later. TLS 1.2 or later SHOULD be used.
+* HTTPS communications MUST use TLS 1.1 or later. However, TLS 1.2 or later SHOULD be used.
 
 Obviously, one could rewrite the above into two statements, or reword it in a number of ways to more or less achieve the same outcome.
 
-The following terms have been adapted from IETF RFC 2119 and are used throughout this document to indicate whether a statement is mandatory, recommended or optional: "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY", and "OPTIONAL".  These terms are generally capitalized for emphasis within this document.
+## The FIRST Standard
+The first standard in your repertiore should specify how you manage and use principles, policies, standards, guidelines, and procedures.
+
+Importantly, it MUST be clear on key terms to prevent any ambiguity. A statement at the beginning of each document can alay this:
+
+**The following terms have been adapted from IETF RFC 2119 and are used throughout this document to indicate whether a statement is mandatory, recommended or optional: "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY", and "OPTIONAL".  These terms are generally capitalized for emphasis within this document.**
 
 ## Audits
 We all cringe a bit around audit time...  Are we really following our own prescribed standards?  Can we evidence that for the auditor?
@@ -93,17 +98,6 @@ And an auditor is likely to look dimly on cases where a threshold has been hamme
 
 But your standard may define thresholds for measuring non-compliance of the standard, but this should be backed by the impact to the firm's risk profile.
 There is no guarantee though that an independent auditor will honor such statements, but they can be a useful tool for your own compliance self assessments.
-
-
-
-
-But don't use this as a crutch f
-
-
-
-# The FIRST Standard
-The first standard should specify how you manage and use principles, policies, standards, guidelines, and procedures.
-
 
 # Contributing
 Content and editorial contributions are welcomed! Please don't share anything confidential.
