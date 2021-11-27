@@ -34,32 +34,13 @@ Every document in the framework should contain boilerplate text which clearly de
 The COMPANY Policy Framework consists of a series of documents which describes goals, objectives, requirements, recommendations, and procedures for various subject areas. This constists of principles, policies, standards, guidelines, and procedures. It is important to understand the distinction and purpose of each within the framework.
 
 * *Values* are prescribed and adopted by the company board of directors and form the foundation by which the company works.
-* A *Principle is a fundamental basis of a system of thought or belief about the way to behave..
+* A *Principle* is a fundamental basis of a system of thought or belief about the way to behave..
 * A *Policy* is a formal, brief, high-level statement that typically includes statements to require compliance with associated standards and regulatory requirements with a focus on the desired results and not the means of implementation.
 * A *Standard* contains the mandatory and recommended actions and rules to support and conform to a given policy.
 * A *Guideline* provides general statements, recommendations, and administrative instructions designed to achieve the policy's objectives by providing a framework within which to implement procedures.
 * A *Procedure* describes a process and desired outcome: who does what, when they do it, and under what criteria. A procedure may contain multiple ways to achieve the objective and may or may not be mandatory, depending on what is stated in the associated standards document.
 
 Corporate values drives principles, from which the specific policies are derived. Policies, in turn, drive standards, guidelines, and procedures. Values are usually accompanied by a mission statement to clearly articulate a company's priority and focus.
-
-### Policies
-
-### Standards
-Thus, the *standards* are set out the specific requirements for the organization.
-The *policies* are just the high
-
-Some argue that a standards document should only specify requirements and that guidelines should be used for recommendations.
-Personally, I like to keep the related requirements and recommendations together within the same document.
-They are more likely to be read this way, and it's one less document to separately track and maintain. 
-Furthermore, I prefer to capture key recommendations which themselves may soon become requirements, but haven't yet.
-A great example is the use of TLS, combined into a single statement:
-
-* *HTTPS communications MUST use TLS 1.1 or later. However, TLS 1.2 or later SHOULD be used.*
-
-Obviously, one could rewrite the above into two statements, or reword it in a number of ways to more or less achieve the same outcome.
-
-I have also seen cases where lists of security controls such as those found in NIST SP800-53 are used as standards,
-even though security controls are the means by which standard requirements are *achieved* -- the controls themselves are NOT standards.
 
 # MUST and SHOULD
 Many standards fail to CLEARLY differentiate what is required vs. what is recommended.
@@ -69,6 +50,17 @@ The first standard in your repertiore should specify how you manage and use prin
 Importantly, it MUST be clear on key terms to prevent any ambiguity. A statement at the beginning of each document can alay this:
 
 **The following terms have been adapted from IETF RFC 2119 and are used throughout this document to indicate whether a statement is mandatory, recommended or optional: "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY", and "OPTIONAL".  These terms are generally capitalized for emphasis within this document.**
+
+Some argue that a standards document should only specify requirements and that guidelines should be used for recommendations.
+Personally, I like to keep the related requirements and recommendations together within the same document.
+They are more likely to be read this way, and it's one less document to separately track and maintain. 
+Furthermore, I prefer to capture key recommendations which themselves may soon become requirements, but haven't yet.
+A great example is the use of TLS, combined into a single statement:
+
+* *HTTPS communications MUST use TLS 1.1 or later. However, TLS 1.2 or later SHOULD be used.*
+
+I have also seen cases where security _controls_ such as those found in NIST SP800-53 are used as-is for company standards,
+even though security controls are the means by which standard requirements are *achieved* -- the controls themselves are NOT standards.
 
 # Audits
 We all cringe a bit around audit time...  Are we really following our own prescribed standards?  Can we evidence that for the auditor?
